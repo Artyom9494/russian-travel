@@ -1,0 +1,15 @@
+.cover__overlay {
+  position: absolute;
+  height: 740px;
+  width: 1184px;
+  left: 0;
+  top: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+}
+
+.cover__overlay:hover {
+  background: #2a2c2f;
+  opacity: 0.8;
+  cursor: url(../../../images/Ip.png), pointer;
+}
