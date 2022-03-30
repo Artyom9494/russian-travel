@@ -6,6 +6,7 @@
   line-height: 28px;
   color: #ffffff;
   margin: 0 18px 0 0;
+  cursor: url(../../../images/Ip.png), pointer;
 }
 
 .header__lang-link:last-child {
