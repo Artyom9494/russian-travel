@@ -1,9 +1,22 @@
 .lead {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
   margin: 0 auto 92px;
-  height: 1005px;
-  width: 984px;
+  /* height: 1005px; */
+  max-width: 984px;
+}
+.lead:last-child {
+  justify-items: start;
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    margin: 0 0 64px;
+    width: 320px;
+    height: 406px;
+  }
 }

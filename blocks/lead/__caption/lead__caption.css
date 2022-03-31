@@ -1,15 +1,18 @@
 .lead__caption {
-  margin: 0;
+  margin: 8px 0 0 0;
   height: 14px;
   width: 158px;
-  border-radius: nullpx;
   font-family: Inter;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px;
   letter-spacing: 1.5px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  padding-right: 83.5%;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    padding-right: 40%;
+  }
 }

@@ -13,3 +13,11 @@
   opacity: 0.8;
   cursor: url(../../../images/Ip.png), pointer;
 }
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    height: 200px;
+    width: 320px;
+    margin: 0;
+  }
+}

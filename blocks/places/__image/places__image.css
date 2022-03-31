@@ -1,5 +1,11 @@
 .places__image {
-  margin: 0 40px 0 0;
-  height: 460px;
-  width: 460px;
+  width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .places__image {
+    margin: 0 0 32px;
+    height: 320px;
+    width: 320px;
+  }
 }

@@ -1,7 +1,7 @@
 .intro__title {
   margin: 0;
   height: 58px;
-  width: 690px;
+  max-width: 690px;
   font-family: Inter;
   font-size: 54px;
   font-style: normal;
@@ -9,4 +9,16 @@
   line-height: 58px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    margin: 0 0 40px;
+    height: 70px;
+    width: 288px;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 35px;
+    text-align: left;
+  }
 }

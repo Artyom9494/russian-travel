@@ -11,3 +11,13 @@
   text-decoration: none;
   color: #fff;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    margin: 0 0 32px 0;
+  }
+
+  .footer__link:last-of-type {
+    margin: 0;
+  }
+}

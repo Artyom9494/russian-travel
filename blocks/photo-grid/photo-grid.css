@@ -7,3 +7,13 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
 }
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    margin: 0 16px 64px;
+    height: 2724px;
+    width: 288px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+  }
+}
