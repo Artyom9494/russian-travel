@@ -1,6 +1,5 @@
 .intro__list {
   margin: 0;
-  height: 90px;
   max-width: 690px;
   font-family: Inter;
   font-size: 12px;
@@ -11,10 +10,3 @@
   text-align: left;
 }
 
-@media screen and (max-width: 320px) {
-  .intro__list {
-    margin: 0 0 34px;
-    height: 90px;
-    width: 288px;
-  }
-}

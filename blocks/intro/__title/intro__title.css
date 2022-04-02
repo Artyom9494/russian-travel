@@ -11,14 +11,12 @@
   text-align: left;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 724px) {
   .intro__title {
     margin: 0 0 40px;
     height: 70px;
     width: 288px;
     font-size: 32px;
-    font-style: normal;
     line-height: 35px;
-    text-align: left;
   }
 }
