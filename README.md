@@ -12,4 +12,4 @@ _Добавить английскую версию сайта_
 
 #### ссылка на GitHub Pages
 
-*https://github.com/Artyom9494/russian-travel.git*
+*https://artyom9494.github.io/russian-travel/*
