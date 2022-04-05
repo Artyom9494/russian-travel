@@ -7,10 +7,6 @@
   color: #ffffff;
   margin: 0 18px 0 0;
   cursor: url(../../../images/Ip.png), pointer;
-}
-
-.header__lang-link:last-child {
-  margin: 0;
   text-decoration: none;
 }
 

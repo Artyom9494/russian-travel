@@ -1,7 +1,10 @@
 .footer__links {
     max-width: 465px;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
+    list-style: none;
 }
 
 @media screen and (max-width: 767px) {

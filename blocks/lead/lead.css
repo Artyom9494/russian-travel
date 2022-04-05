@@ -8,22 +8,3 @@
   max-height: 1005px;
   max-width: 984px;
 }
-
-@media screen and (max-width: 1140px) {
-  .lead {
-    margin: 0 auto;
-
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .lead {
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .lead {
-    margin: 0 auto;
-  }
-}
